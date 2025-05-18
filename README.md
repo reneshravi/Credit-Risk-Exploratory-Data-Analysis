@@ -14,6 +14,7 @@ This project performs an end-to-end exploratory data analysis (EDA) on a credit 
 ---
 
 ## Directory Structure
+'''
 credit-risk-eda/
 ├── data/
 │   ├── Credit Risk Benchmark Dataset.csv # Origincal data set
@@ -24,6 +25,7 @@ credit-risk-eda/
 │   ├── data_cleaning.ipynb # Python-based cleaning & preprocessing
 │   └── sql_analysis.ipynb # SQL-based EDA with query results
 ├── README.md # Project overview and documentation
+'''
 
 ## SQL Questions 
 
@@ -38,7 +40,7 @@ credit-risk-eda/
 ## How to Use
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/credit-risk-eda.git
+git clone https://github.com/reneshravi/credit-risk-eda.git
 cd credit-risk-eda
 ```
 2. Open the notebooks in VS Code or Jupyter:
