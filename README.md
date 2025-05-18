@@ -16,13 +16,13 @@ This project performs an end-to-end exploratory data analysis (EDA) on a credit 
 ## Directory Structure
 credit-risk-eda/
 ├── data/
-│ └── Credit Risk Benchmark Dataset.csv # Origincal data set
-│ └── clean_credit_risk.csv # Cleaned and processed data
+│   ├── Credit Risk Benchmark Dataset.csv # Origincal data set
+│   └── clean_credit_risk.csv # Cleaned and processed data
 ├── database/
-│ └── credit_risk.db # SQLite database with final table
+│   └── credit_risk.db # SQLite database with final table
 ├── notebooks/
-│ ├── data_cleaning.ipynb # Python-based cleaning & preprocessing
-│ └── sql_analysis.ipynb # SQL-based EDA with query results
+│   ├── data_cleaning.ipynb # Python-based cleaning & preprocessing
+│   └── sql_analysis.ipynb # SQL-based EDA with query results
 ├── README.md # Project overview and documentation
 
 ## SQL Questions 
